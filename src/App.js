@@ -28,7 +28,7 @@ function App() {
       {/* Defining routes for different pages */}
       <Routes>
         {/* Home page route displaying all sections */}
-        <Route path="/sumitesh-portfolio" element={<PageWrapper />}/>    
+        <Route path="/my-portfolio" element={<PageWrapper />}/>    
         {/* Route for portfolio page */}
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path='/blog' element={<Blog />} />
