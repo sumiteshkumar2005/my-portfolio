@@ -11,8 +11,8 @@ const Services = () => {
       color: "bg-blue-600"
     },
     {
-      title: "Color Grading",
-      description: "Expert color correction and grading",
+      title: "Creatives",
+      description: "Designing compelling visuals from thumbnails to posters.",
       icon: <Edit className="w-5 h-5 sm:w-6 sm:h-6" />,
       color: "bg-purple-600"
     },
@@ -23,8 +23,8 @@ const Services = () => {
       color: "bg-indigo-600"
     },
     {
-      title: "Sound Design",
-      description: "Professional audio mixing and editing",
+      title: "Poster Designing",
+      description: "Professional poster designing",
       icon: <Music className="w-5 h-5 sm:w-6 sm:h-6" />,
       color: "bg-violet-600"
     },
@@ -53,7 +53,7 @@ const Services = () => {
 
       <div className="relative w-full max-w-6xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 sm:mb-4">My Skills</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 sm:mb-4">What I Do?</h1>
           <p className="text-blue-400 text-base sm:text-lg md:text-xl">Drag to explore my video editing expertise</p>
         </div>
         

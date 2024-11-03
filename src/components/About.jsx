@@ -58,10 +58,7 @@ const Portfolio = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              With over 5 years of experience in video editing and post-production, 
-              I specialize in creating compelling visual narratives that captivate 
-              audiences. My work combines technical expertise with creative storytelling 
-              to deliver outstanding results for every project.
+            With years of hands-on experience in storytelling, cinematography, and post-production, I specialize in creating dynamic and visually compelling content. From concept to final cut, I work closely with clients to bring their unique visions to life, whether for promotional videos, documentaries, short films, or social media projects. Let’s bring your story to the screen together.
             </motion.p>
 
             <motion.div
@@ -80,16 +77,16 @@ const Portfolio = () => {
               </div>
               <div className="flex items-center gap-3 justify-center lg:justify-start">
                 <div className="w-2 h-2 bg-indigo-500 rounded-full" />
-                <span>Professional sound design and mixing</span>
+                <span>Professional Videography</span>
               </div>
             </motion.div>
 
             {/* Download CV Button */}
             <div className="mt-8 flex justify-center lg:justify-start">
               <a
-                href="/assets/Sumitesh_cv.pdf"
-                download
+                href="https://drive.google.com/file/d/1Kg4Xbh6J7ah4FAY9PPrFknowKVYJNg6Y/view?usp=sharing"
                 className="inline-block w-full sm:w-auto"
+                target='_blank'
               >
                 <motion.button
                   className="group relative w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-xl bg-black backdrop-blur-lg text-white font-semibold flex items-center justify-center gap-3 hover:bg-gray-900/60 transition-colors overflow-hidden"

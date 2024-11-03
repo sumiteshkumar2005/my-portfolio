@@ -4,15 +4,15 @@ const LoadingAnimation = () => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
       {/* Gradient background effects */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden z-[51]">
         <div className="absolute -top-20 -left-20 w-96 h-96 bg-purple-900/30 rounded-full blur-[100px] animate-pulse"></div>
         <div className="absolute -bottom-20 right-20 w-96 h-96 bg-blue-900/30 rounded-full blur-[100px] animate-pulse delay-300"></div>
       </div>
       
       {/* Loading animation container */}
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col items-center z-[52]">
         {/* Animated text */}
-        <div className="text-4xl font-bold mb-8">
+        <div className="text-4xl font-bold mb-8 text-white">
           <span className="inline-block animate-slideUp opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">S</span>
           <span className="inline-block animate-slideUp opacity-0 [animation-delay:0.3s] [animation-fill-mode:forwards]">U</span>
           <span className="inline-block animate-slideUp opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">M</span>

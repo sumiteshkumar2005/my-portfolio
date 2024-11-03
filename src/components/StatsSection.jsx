@@ -57,12 +57,12 @@ const StatsSection = () => {
 
   const stats = [
     {
-      value: "3400+",
+      value: "100+",
       label: "Users Worldwide",
       color: "from-blue-500/20 to-purple-500/20"
     },
     {
-      value: "46000+",
+      value: "150+",
       label: "Projects Delivered",
       color: "from-purple-500/20 to-pink-500/20"
     },
@@ -94,14 +94,14 @@ const StatsSection = () => {
             <div className="absolute -inset-4 bg-blue-500/10 blur-3xl" />
             
             <h1 className="text-6xl font-light text-white leading-tight relative">
-              Numbers are
+              The Numbers
               <br />
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text">
-                telling our story
+              Behind My Journey
               </span>
             </h1>
             <p className="text-gray-400 max-w-lg relative text-lg">
-              Transforming creative visions into reality through innovative content creation and cutting-edge motion graphics.
+              Crafting Reality from Vision through Bold Content Creation and Advanced Motion Graphics.
             </p>
           </div>
 

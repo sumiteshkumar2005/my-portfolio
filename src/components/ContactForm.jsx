@@ -72,7 +72,7 @@ const ContactForm = () => {
     const message = encodeURIComponent(`Name: ${formData.name}\nMessage: ${formData.message}`);
     
     // Replace with your WhatsApp number (including country code)
-    const phoneNumber = '+9618190870'; // Example: replace with actual number
+    const phoneNumber = '+919014347729'; // Example: replace with actual number
     
     // Open WhatsApp with pre-filled message
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -160,8 +160,7 @@ const ContactForm = () => {
                       Let's Create Together
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                      Whether you have a project in mind, want to collaborate, or just say hello, 
-                      I'm always excited to hear from you. Choose your preferred method of contact below.
+                      Reach out and let's make it happen ✨. I'm also available for full-time or Part-time opportunities to push the boundaries of design and deliver exceptional work. matter for lets talk.
                     </p>
                   </div>
                 </div>

@@ -4,27 +4,35 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    text: "The platform completely transformed how we handle our client interactions. The efficiency gains have been remarkable, and our team productivity has increased significantly.",
-    author: "Sarah Chen",
-    role: "CTO @ TechFlow",
-    avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
+    text: "Easy to get along, hardworking and knows what is succinctly required for the project to take off. Easy hire!",
+    author: "Yashaswee Kesharwani",
+    role: "CEO @ Final Take",
+    avatar: "https://assets.softr-files.com/applications/e030cae4-1b0c-4881-861b-9239fb9fd07b/assets/8eb1f93a-4d42-4358-8247-ec5a9e952a2b.png",
     gradientColor: "from-purple-500 to-blue-500"
   },
   {
     id: 2,
-    text: "Implementation was smooth and the support team was exceptional. We've seen a 40% increase in customer satisfaction since adopting this solution.",
-    author: "Michael Rodriguez",
-    role: "Director @ InnovateCorp",
+    text: "Very punctual at delivering the work actually delivered before deadline and quality was more than what we expected.",
+    author: "Thejus",
+    role: "Influencer @ LPU",
     avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
     gradientColor: "from-blue-500 to-cyan-500"
   },
   {
     id: 3,
-    text: "A game-changing tool that has streamlined our workflow. The intuitive interface and powerful features make it an essential part of our daily operations.",
-    author: "Amanda Foster",
-    role: "CEO @ Nexus Systems",
+    text: "We worked together in events in which sumitesh helped us in making poster and promo for the events. He is creative and have good adaptable skills according to trend which helped a lot in promoting of our event.",
+    author: "Rohit Soni",
+    role: "Manager @ Stewk Ap",
     avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
     gradientColor: "from-cyan-500 to-purple-500"
+  },
+  {
+    id: 4,
+    text: "Working with sumitesh has been a great experience for me. He's very punctual at submiting the edits in time.",
+    author: "Sandeep Danne",
+    role: "Student @ LPU",
+    avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
+    gradientColor: "from-blue-500 to-cyan-500"
   }
 ];
 
@@ -67,12 +75,12 @@ const Testimonials = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            3400+ Users
+            10+ Clients
           </h2>
           <h3 className="text-3xl font-semibold mb-2 text-gray-300">
-            Trusted by Teams Worldwide
+            Named for Creativity
           </h3>
-          <p className="text-gray-400">Real experiences from our valued customers</p>
+          <p className="text-gray-400">Real experiences from my valued customers</p>
         </div>
 
         {/* Testimonial Card */}

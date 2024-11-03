@@ -51,7 +51,7 @@ const PortfolioPage = () => {
       tools: ["Davinci Resolve", "Short Form Content", "Premiere Pro"],
       image:
         "https://imgs.search.brave.com/uo1_PfkpbDQUHI67wP7MjFualIfJLm9hteaBE3otYMI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlkZW9wcm9jLmNv/bS9pbWFnZXMvdnAt/c2VvL3Zwdi1mZWF0/dXJlcy5qcGc",
-      videoUrl: "#",
+      videoUrl: "https://drive.google.com/file/d/12dy3kJ0PJnsQ8rUgyVyCtDOg9IGYUWDh/view?usp=sharing",
     },
   ];
 
@@ -141,8 +141,8 @@ const PortfolioPage = () => {
               <div
                 className="text-center transition-all duration-700"
               >
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                  Creative Portfolio
+                <h1 className="text-5xl md:text-7xl h-28 md:h-20 font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+                  Portfolio <br className="md:hidden"/> Repositories
                 </h1>
                 <p className="text-lg md:text-xl text-blue-300 mb-8">
                   Discover my creative work collection
