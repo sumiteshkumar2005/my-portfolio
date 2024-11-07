@@ -33,6 +33,14 @@ const testimonials = [
     role: "Student @ LPU",
     avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
     gradientColor: "from-blue-500 to-cyan-500"
+  },
+  {
+    id: 5,
+    text: "I have taken service of video editing from sumitesh and my experience was fabulous with him.Very fast and got delivery in time and he is very responsive too .. highly recommend ",
+    author: "Navneet ojha",
+    role: " Creator @ The Increations",
+    avatar: "https://imgs.search.brave.com/bOqFMnk0DiUua3syN5ahog2IFLjesQZCbXfDT8kHcd0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3M1LmFwcGxlaW5z/aWRlci5jb20vZ2Fs/bGVyeS81NDAxNS0x/MDg4MDgtU2lyaS1p/Y29uLXhsLmpwZw",
+    gradientColor: "from-purple-500 to-blue-500"
   }
 ];
 
